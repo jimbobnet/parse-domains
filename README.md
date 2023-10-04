@@ -20,7 +20,7 @@ It takes input from the pipeline, via a filename or via STDIN.
 
 ```
 
-$ cat someURLS | ./parse-domains.py
+$ echo 'http://www.a.f.q.d.n.com' | ./parse-domains.py
 
 $ ./parse-domains.py file-with-URLs.txt
 
